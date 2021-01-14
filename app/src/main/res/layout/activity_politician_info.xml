@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PoliticianInfo">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@tools:sample/avatars"
+        android:layout_gravity="center_horizontal"
+
+
+        />
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="315dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        app:cardCornerRadius="10dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/name"
+            tools:text="Victoria Ferguson"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Victoria@gmail.com"
+            android:id="@+id/email"
+            android:layout_gravity="center_horizontal"
+            android:textSize="15dp"
+            android:layout_marginTop="30dp"
+
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            tools:text="Role"
+            android:textSize="15dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginBottom="40dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/position"
+            android:layout_gravity="center_vertical"
+            tools:text="Admin"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="40dp"
+            android:layout_marginBottom="15dp"
+            />
+
+        <View
+            style="@style/Divider.Vertical"
+            android:layout_gravity="center"
+            android:background="#C0C0C0"
+            android:layout_height="40dp"
+            android:layout_marginBottom="20dp"
+           />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            tools:text="Team"
+            android:textSize="15dp"
+            android:layout_marginLeft="280dp"
+            android:layout_marginBottom="40dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/department"
+            android:layout_gravity="center_vertical"
+            tools:text="Product"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="260dp"
+            android:layout_marginBottom="15dp"
+            />
+
+
+        <ImageView
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:src="@drawable/message"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="70dp"
+         />
+        <ImageView
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:src="@drawable/chat"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            />
+        <ImageView
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:src="@drawable/whatsapp"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="70dp"
+            />
+
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Address"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="240dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="99 Meadow City"
+        android:id="@+id/address"
+        android:layout_gravity="bottom"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginBottom="220dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="zip code"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="190dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="99538-43948"
+        android:id="@+id/zip"
+        android:layout_gravity="bottom"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginBottom="170dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="city"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="140dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="New York"
+        android:id="@+id/city"
+        android:layout_gravity="bottom"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginBottom="120dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Country"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="90dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="United States"
+        android:id="@+id/country"
+        android:layout_gravity="bottom"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginBottom="70dp"
+        />
+
+
+
+
+
+
+
+</FrameLayout>
